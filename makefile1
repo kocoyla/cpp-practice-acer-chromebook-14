@@ -1,0 +1,9 @@
+all: build run
+
+build: first
+
+first: first.cpp std.h
+	c++ -std=c++17 first.cpp -o first
+
+run: first
+	./first

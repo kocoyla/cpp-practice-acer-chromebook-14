@@ -1,0 +1,9 @@
+all: build run
+
+build: newyear
+
+newyear: newyear.cpp std.h
+	c++ -std=c++17 newyear.cpp -o newyear
+
+run: newyear
+	./newyear
