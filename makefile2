@@ -7,3 +7,11 @@ newyear: newyear.cpp std.h
 
 run: newyear
 	./newyear
+
+make1:
+	rm -f Makefile
+	ln -s makefile1 Makefile
+
+make2:
+	rm -f Makefile
+	ln -s makefile2 Makefile

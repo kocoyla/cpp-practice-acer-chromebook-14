@@ -7,3 +7,11 @@ first: first.cpp std.h
 
 run: first
 	./first
+
+make1:
+	rm -f Makefile
+	ln -s makefile1 Makefile
+
+make2:
+	rm -f Makefile
+	ln -s makefile2 Makefile
