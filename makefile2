@@ -15,3 +15,7 @@ make1:
 make2:
 	rm -f Makefile
 	ln -s makefile2 Makefile
+
+make3:
+	rm -f Makefile
+	ln -s makefile3 Makefile

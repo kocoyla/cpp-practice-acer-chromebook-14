@@ -1,12 +1,12 @@
 all: build run
 
-build: first
+build: eslem
 
-first: first.cpp std.h
-	c++ -std=c++17 first.cpp -o first
+eslem: eslem.cpp std.h
+	c++ -std=c++17 eslem.cpp -o eslem
 
-run: first
-	./first
+run: eslem
+	./eslem
 
 make1:
 	rm -f Makefile
