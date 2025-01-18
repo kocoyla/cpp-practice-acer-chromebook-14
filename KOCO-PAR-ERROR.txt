@@ -1,0 +1,19 @@
+
+Yazılımcığınızda bir hata var!
+İlk hatayı bul
+Hata[45,21]: Symbol 'term scala.collection.parallel.immutable' is missing from the classpath.
+This symbol is required by 'tür ParalelDiziYöntemleri.ParDizi'.
+Make sure that term immutable is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.
+A full rebuild may help if 'ParalelDiziYöntemleri.class' was compiled against an incompatible version of scala.collection.parallel.
+(NOTE: It looks like the scala-parallel-collections module is missing; try adding a dependency on "org.scala-lang.modules" : "scala-parallel-collections".
+       See https://docs.scala-lang.org/overviews/ for more information.)
+    tanım artır() = say += 1
+                    ^
+Hata[147,35]: Symbol 'term scala.collection.parallel.immutable' is missing from the classpath.
+This symbol is required by 'tür DizinYöntemleri.DizinYöntemleri.ParDizi'.
+Make sure that term immutable is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.
+A full rebuild may help if 'DizinYöntemleri.class' was compiled against an incompatible version of scala.collection.parallel.
+(NOTE: It looks like the scala-parallel-collections module is missing; try adding a dependency on "org.scala-lang.modules" : "scala-parallel-collections".
+       See https://docs.scala-lang.org/overviews/ for more information.)
+            dez pd = (0 |- kenar).dizine.paralel
+                                  ^
